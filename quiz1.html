@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta nmae = "viewport" content = "width= device-width,initial-scale=1.0">
+        <title>Quiz app</title>
+        <link rel = "stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+        <!--FontAwesome CDN link for Icons-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"></script>
+    </head>
+    <body>
+        <div class = "start_btn"><button>Start Quiz</button></div>
+        <div class = "info_box">
+            <div class = "info_title">
+                <span>Some Rules of this Quiz</span>
+            </div>
+            <div class = "info_list">
+            <div class = "info">1.You will have only <span>20 seconds</span> per each question.</div>
+            <div class = "info">2.Once you select your answer, you can't select reselect.</div>
+            <div class = "info">3.You can't select any option once time goes off.</div>
+            <div class = "info">4.You can't exit from the quiz while you are playing.</div>
+            <div class = "info">5.You will get points on the basis of your correct answers.</div>
+        </div>
+        <div class = "buttons">
+            <button class = "quit">Exit Quiz</button>
+            <button class = "restart">Continue Quiz</button>
+        </div>
+    </div>
+    <!--Quiz box-->
+    <div class = "quiz_box">
+        <header>
+            <div class = "title">Quiz app</div>
+            <div class = "timer">
+                <div class = "time_text">Time left</div>
+                <div class="timer_sec">20</div>
+            </div>
+        </header>
+        <section>
+            <div class = "que_text">
+                <span><b>An HTML document can contain ____ </b>  </span>
+            </div>
+            <div class = "option_list">
+                <div class = "option" >
+                    <span>Attributes</span>
+                    <div class = "icon tick"><i class="fas fa-check"></i></div>
+                </div>
+                <div class = "option" >
+                    <span>Tags</span>
+                    <div class = "icon cross"><i class="fas fa-times"></i></div>
+                </div>
+                <div class = "option" >
+                    <span>Raw text</span>
+                    
+                </div>
+                <div class = "option" >
+                    <span>All the answers are true</span>
+                    
+                </div>
+            </div>
+        </section>
+        <!--Quiz box footer-->
+        <footer>
+            <div class ="total_que">
+                <span><p>2</p>of<p>5</p>Questions</span>
+            </div>
+            <button class = "next_btn">Next Question</button>
+        </footer>
+    </div>
+    </body>
+</html>
